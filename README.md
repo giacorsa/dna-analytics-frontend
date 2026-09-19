@@ -59,7 +59,7 @@ The backend acts as a **proxy** to the public GitHub API containing the analytic
 
 Data comes from:
 
-[link (https://raw.githubusercontent.com/Anita-Liberatore/dna-analytics-api/master/analytics.json) link]
+<https://raw.githubusercontent.com/Anita-Liberatore/dna-analytics-api/master/analytics.json>
 
 The Backend esposes:
 

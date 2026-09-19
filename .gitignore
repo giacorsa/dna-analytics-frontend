@@ -15,7 +15,7 @@ package-lock.json
 
 # Editor directories and files
 .vscode/*
-!.vscode/extensions.json
+# !.vscode/extensions.json
 .idea
 .env
 .DS_Store

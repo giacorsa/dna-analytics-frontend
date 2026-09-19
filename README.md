@@ -1,6 +1,6 @@
 # DnA Analytics Dashboard
 
-Interactive Dashboard developbed using **Vue 3 + Vite**to monitor the traffic metrics of the *DnA* scientific publication .  
+Interactive Dashboard developbed using **Vue 3 + Vite** to monitor the traffic metrics of the *DnA* scientific publication .  
 This project is part of the Full Stack Developer track of the Star2Impact Master's program.
 
 ---

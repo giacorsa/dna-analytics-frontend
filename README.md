@@ -1,11 +1,11 @@
 # DnA Analytics Dashboard
 
-Dashboard interattiva sviluppata in **Vue 3 + Vite** per monitorare le metriche di traffico della testata scientifica *DnA*.  
-Il progetto fa parte del percorso Full Stack Developer del Master Star2Impact.
+Interactive Dashboard developbed using **Vue 3 + Vite**to monitor the traffic metrics of the *DnA* scientific publication .  
+This project is part of the Full Stack Developer track of the Star2Impact Master's program.
 
 ---
 
-## 🚀 Tecnologie utilizzate
+## 🚀 Tecnologies used
 
 - Vue 3 (Composition API)
 - Vite
@@ -16,19 +16,19 @@ Il progetto fa parte del percorso Full Stack Developer del Master Star2Impact.
 
 ---
 
-## 📊 Funzionalità principali
+## 📊 Main Features
 
-- Visualizzazione delle metriche:
+- Metrics Visualization:
   - **Subscriptions**
   - **Impressions**
-- Grafico a linee con andamento temporale della metrica selezionata
-- Panoramica dei valori totali
-- **Simulazione real‑time**: le impressions aumentano di 5 unità ogni 2 secondi
-- Interfaccia responsive e dark theme
+- Line chart showing the trend of the selected metric over time
+- Overview of total values
+- **Real‑time Simulation**: impressions increase by 5 units every 2 seconds
+- Responsive Interface e dark theme
 
 ---
 
-## 📁 Struttura del progetto
+## 📁 Project Structure
 
 ### Frontend (Vue + Vite)
 
@@ -47,40 +47,35 @@ frontend/
 
 ### Backend (Node.js + Express)
 
-```text
 backend/
  server.js
  package.json
 
-```text
-Il backend funge da **proxy** verso l’API pubblica GitHub contenente i dati analitici.
+The backend acts as a **proxy** to the public GitHub API containing the analytical data.
 
 ---
 
-## 🔌 API utilizzata
+## 🔌 API used
 
-I dati provengono da:
+Data comes from:
 
 [link (https://raw.githubusercontent.com/Anita-Liberatore/dna-analytics-api/master/analytics.json) link]
 
-```text
-Il backend espone:
+The Backend esposes:
 
-```text
 GET /api/metrics
 
 ---
 
-## ▶️ Avvio del progetto
+## ▶️ Project start:
 
 ### Backend
 
-```bash
 cd backend
 npm install
 npm start
 
-Backend disponibile su:
+Backend available on:
 
 http://localhost:3001
 
@@ -90,31 +85,16 @@ cd frontend
 npm install
 npm run dev
 
-Frontend disponibile su:
+Frontend available su:
 
 http://localhost:5173
 
-🌐 Deploy su Netlify
 
-Accedi a https://app.netlify.com/
-
-Clicca Add new site → Import from Git
-
-Seleziona il repository dna-analytics-frontend
-
-Imposta:
-
-Build command: npm run build
-
-Publish directory: dist
-
-Clicca Deploy site
-
-👨‍💻 Autore
+👨‍💻 Author
 
 Gianni — Full Stack Developer (Star2Impact)
 
-📄 Licenza
+📄 License
 
 MIT License
 

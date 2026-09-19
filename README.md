@@ -1,6 +1,6 @@
 # DnA Analytics Dashboard
 
-Interactive Dashboard developbed using **Vue 3 + Vite** to monitor the traffic metrics of the *DnA* scientific publication .  
+Interactive Dashboard developbed using **Vue 3 + Vite** to monitor the traffic metrics of the _DnA_ scientific publication .  
 This project is part of the Full Stack Developer track of the Star2Impact Master's program.
 
 ---
@@ -59,7 +59,7 @@ The backend acts as a **proxy** to the public GitHub API containing the analytic
 
 Data comes from:
 
-<https://raw.githubusercontent.com/Anita-Liberatore/dna-analytics-api/master/analytics.json>
+[View JSON file](https://raw.githubusercontent.com/Anita-Liberatore/dna-analytics-api/master/analytics.json)
 
 The Backend esposes:
 
@@ -98,3 +98,4 @@ Gianni — Full Stack Developer (Star2Impact)
 
 MIT License
 
+```
